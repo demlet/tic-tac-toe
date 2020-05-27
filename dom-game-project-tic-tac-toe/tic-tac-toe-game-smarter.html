@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="tic-tac-toe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>tic-tac-toe</title>
+  </head>
+  <body>
+    <div class="container" id="everything">
+      <div class="jumbotron jumbotron-fluid bg-dark text-white">
+        <div class="container">
+          <h1 class="display-5">Play You a Tic-Tac-Toe!!!</h1>
+          <form class="start-restart-game" action="tic-tac-toe-init-smarter.html" method="post">
+            <button type="submit" class="btn btn-warning" id="startRestart">Start Game / Restart Game</button>
+          </form>
+          <br></br>
+          <p class="lead" id="winStatus"></p>
+        </div>
+      </div>
+      <div class="container" id="gameBoard">
+        <div class="row">
+          <div class="col-sm border border-dark" id="x0y2">
+          </div>
+          <div class="col-sm mx-auto border border-dark" id="x1y2">
+          </div>
+          <div class="col-sm border border-dark" id="x2y2">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm border border-dark" id="x0y1">
+          </div>
+          <div class="col-sm border border-dark" id="x1y1">
+          </div>
+          <div class="col-sm border border-dark" id="x2y1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm border border-dark" id="x0y0">
+          </div>
+          <div class="col-sm border border-dark" id="x1y0">
+          </div>
+          <div class="col-sm border border-dark" id="x2y0">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="nav justify-content-end">
+        <button type="button" class="btn btn-warning" id="submitMove">Submit Move</button>
+      </div> -->
+    </div>
+  </body>
+  <script src="tic-tac-toe-game-smarter.js"></script>
+</html>

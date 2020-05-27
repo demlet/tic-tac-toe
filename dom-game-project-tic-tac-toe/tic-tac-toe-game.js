@@ -96,7 +96,6 @@ document.getElementById("x0y2").addEventListener("click", function (event) {
   if (document.querySelector("#x0y2").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x0y2").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x0y2"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -107,7 +106,6 @@ document.getElementById("x1y2").addEventListener("click", function (event) {
   if (document.querySelector("#x1y2").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x1y2").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x1y2"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -118,7 +116,6 @@ document.getElementById("x2y2").addEventListener("click", function (event) {
   if (document.querySelector("#x2y2").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x2y2").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x2y2"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -129,7 +126,6 @@ document.getElementById("x0y1").addEventListener("click", function (event) {
   if (document.querySelector("#x0y1").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x0y1").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x0y1"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -140,7 +136,6 @@ document.getElementById("x1y1").addEventListener("click", function (event) {
   if (document.querySelector("#x1y1").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x1y1").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x1y1"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -151,7 +146,6 @@ document.getElementById("x2y1").addEventListener("click", function (event) {
   if (document.querySelector("#x2y1").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x2y1").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x2y1"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -162,7 +156,6 @@ document.getElementById("x0y0").addEventListener("click", function (event) {
   if (document.querySelector("#x0y0").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x0y0").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x0y0"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -173,7 +166,6 @@ document.getElementById("x1y0").addEventListener("click", function (event) {
   if (document.querySelector("#x1y0").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x1y0").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x1y0"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
@@ -184,7 +176,6 @@ document.getElementById("x2y0").addEventListener("click", function (event) {
   if (document.querySelector("#x2y0").innerText === "" && boardPositions.length > 0 && !checkForWin(boardPositions)) {
     document.querySelector("#x2y0").innerText = XOrO;
     boardPositions.splice(boardPositions.indexOf("#x2y0"), 1);
-    // checkForWin(boardPositions);
     if (!checkForWin(boardPositions)) {
       aiMove(boardPositions);
       checkForWin(boardPositions);
