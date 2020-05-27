@@ -1,0 +1,15 @@
+#everything{
+  width: 510px;
+}
+.col-sm{
+  height: 170px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 80pt;
+  padding-left: 42px;
+}
+#submitMove{
+  margin-top: 35px;
+}
+#gameBoard{
+  background-image: url('MathllustrationLight.jpg');
+}
